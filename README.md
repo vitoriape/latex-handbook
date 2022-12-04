@@ -116,6 +116,7 @@ Use Case: Latex
 \begin{onehalfspacing}
     \renewcommand\tabularxcolumn[1]{>{\Centering}m{#1}} 
     \begin{table}[ht]
+      \resizebox{18cm}{!}{%
         \begin{center}
             \begin{large}
                 \caption{Tema 02}
@@ -132,6 +133,7 @@ Use Case: Latex
                     Descrição, descrição & Definição, definição \\
                     \hline
                 \end{tabular}
+                }
             \end{large}
         \end{center}
     \end{table}
